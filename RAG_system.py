@@ -24,7 +24,7 @@ from langchain.callbacks import get_openai_callback
 load_dotenv(override=True)
 
 # Define flag to control vectorstore regeneration
-RECREATE_VECTORSTORE = False  # Set to True to force delete and rebuild
+RECREATE_VECTORSTORE = True  # Set to True to force delete and rebuild
 
 #Define Model and vector DB name
 MODEL = "gpt-4o-mini"
