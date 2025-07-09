@@ -1,7 +1,7 @@
 This application will create a vector store based on the documents you provide and will be able to answer question from the documents in a chat interface. The application currently
 supports .md, .txt, .docx and .pdf files. You need to set below keys in a .env file in the applications root directory. 
 
-**OPEN_API_KEY**
+**OPEN_API_KEY**\n
 **GEMINI_API_KEY** (if you choose to use google's llm)
 
 By default the application uses OPENAI embeddings and LLM. You have an option to use google llm or locally hosted ollama llms. The code
